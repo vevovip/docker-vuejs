@@ -22,7 +22,8 @@ WORKDIR ${PROJECT_PATH}
 COPY . .
 
 # Setup Vue CLI
-RUN yarn global add @vue/cli
+RUN yarn global add @vue/cli \
+    && echo vue --version
 
 # Add TypeScript support
 RUN if [ "${ENABLE_TYPESCRIPT}" = "true" ]; then yarn global add typescript; fi

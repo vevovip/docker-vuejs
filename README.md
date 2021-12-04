@@ -283,10 +283,3 @@ This is caused by the host-container file system configuration. [Docker document
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
----
-
-<p align="center">
-  <a href="http://github.com/luisaveiro" target="_blank">GitHub</a> •
-  <a href="https://uk.linkedin.com/in/luisaveiro" target="_blank">LinkedIn</a> •
-  <a href="https://twitter.com/luisdeaveiro" target="_blank">Twitter</a>
-</p>
