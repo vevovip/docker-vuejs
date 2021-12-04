@@ -7,6 +7,7 @@ services:
         env_file: .env
         container_name: ${CONTAINER_NAME}
         image: ${IMAGE_NAME}
+        user: '1000:1000'
         build:
             context: code
             dockerfile: ../docker/Dockerfile
