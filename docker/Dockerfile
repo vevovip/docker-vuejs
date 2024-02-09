@@ -3,6 +3,8 @@ ARG NODE_VERSION=latest
 
 FROM node:$NODE_VERSION
 
+MAINTAINER Rakhimyan Akhmetyanov <vevogm@gmail.com>
+
 # Provide default arguments if image was not built by docker compose.
 ARG CLEAN_YARN_CACHE=false
 ARG ENABLE_TYPESCRIPT=false
